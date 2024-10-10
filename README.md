@@ -11,3 +11,4 @@ This project implements various sorting algorithms
 # Algorithms List
 
 - Bubble Sort
+- Selection Sort
