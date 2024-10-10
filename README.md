@@ -12,3 +12,4 @@ This project implements various sorting algorithms
 
 - Bubble Sort
 - Selection Sort
+- Insertion Sort
