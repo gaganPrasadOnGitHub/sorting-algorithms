@@ -1,4 +1,5 @@
-export const selectionSort = (array) => {
+export const selectionSort = (unsortedArray = []) => {
+  const array = [...unsortedArray];
   const arrayLength = array.length;
 
   for (let i = 0; i < arrayLength - 1; i++) {

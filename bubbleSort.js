@@ -1,4 +1,5 @@
-export const bubbleSort = (array = []) => {
+export const bubbleSort = (unsortedArray = []) => {
+  const array = [...unsortedArray];
   const arrayLength = array.length;
 
   for (let i = 0; i < arrayLength - 1; i++) {
