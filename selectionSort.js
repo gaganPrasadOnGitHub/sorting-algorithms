@@ -7,7 +7,7 @@ export const selectionSort = (unsortedArray = []) => {
 
     for (let j = i + 1; j < arrayLength; j++) {
       if (array[j] < array[minIndex]) {
-        minIndex = i;
+        minIndex = j;
       }
     }
     if (minIndex !== i) {
